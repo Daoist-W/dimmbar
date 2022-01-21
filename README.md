@@ -102,4 +102,4 @@ Distributed under the MIT Licence. See `Licence` for more information.
 **Developer:** Mateusz Bieniek - 
 
 
-Repository Link: [https://github.com/Daoist-W/data-ingestion-app](https://github.com/Daoist-W/dimmbar)
+Repository Link: [https://github.com/Daoist-W/dimmbar](https://github.com/Daoist-W/dimmbar)
