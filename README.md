@@ -96,8 +96,10 @@ Distributed under the MIT Licence. See `Licence` for more information.
 ## Contact
 
 **Developer:** Don Isiko - don.k.isiko@gmail.com
+
 **Developer:** Madeleine Simcock-Brown - m.simcock-brown@outlook.com
+
 **Developer:** Mateusz Bieniek - 
 
 
-Repository Link: [https://github.com/Daoist-W/data-ingestion-app](https://github.com/Daoist-W/data-ingestion-app)
+Repository Link: [https://github.com/Daoist-W/data-ingestion-app](https://github.com/Daoist-W/dimmbar)
