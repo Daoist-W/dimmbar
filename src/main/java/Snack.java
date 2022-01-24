@@ -1,25 +1,25 @@
 import java.util.HashMap;
 
-public class Beer extends Entry {
+public class Snack extends Entry {
     // fields
 
     private HashMap<String, Integer> intData;
     private HashMap<String, String> stringData;
 
     // constructor
-    public Beer() {
+    public Snack() {
     }
 
-    public Beer(HashMap<String, Integer> intData, HashMap<String, String> stringData) {
+    public Snack(HashMap<String, Integer> intData, HashMap<String, String> stringData) {
         this.intData = intData;
         this.stringData = stringData;
     }
 
     @Override
     public Entry newInstance(HashMap<String, Integer> intData, HashMap<String, String> stringData) {
-        return new Beer(intData, stringData);
+        return new Snack(intData, stringData);
     }
-    
+
     @Override
     public HashMap<String, Integer> getIntData() {
         return intData;
@@ -57,11 +57,9 @@ public class Beer extends Entry {
             System.out.println("INVALID DISCOUNT: NOT APPLIED");
         }
         return String.format(
-                "%40S %10S %7.2f%% %10.2f GBP \n",
+                "%40S %10S %10.2f GBP \n",
                 getStringData("name_"),
                 appendToName,
-                // conversion from table units to %, done to keep numerical data types as ints
-                (float) getIntData("abv") * 0.1,
                 getIntData("price") * 0.05 * (1 - discount) // 1/20th distributor cost default
         );
     }
@@ -78,7 +76,7 @@ public class Beer extends Entry {
                 .append(": ")
                 .append(value)
                 .append("\n"));
-        return "Beer{ \n" +
+        return "Snack{ \n" +
                 sbint +
                 sbString +
                 '}';
