@@ -27,19 +27,19 @@ This application is our solution to a challenge project set by QA Academy Softwa
 The brief is as follows
 
 > Project for 21/01/22
-> 
+>
 > You have been put in charge of running the database software for a trendy bar
-> 
+>
 > The client requires a backend to be produced using Java where they are able to do the following:
-> 
+>
 > - Add beers / foods / drinks to the database MySQL
 > - Retrieve all items from a table from MySQL
 > - Retrieve item by id / name
 > - Update items
 > - Delete items
-> 
+>
 > At minimum 1 table, stretch goal would be multiple tables NO NEED TO MAKE THEM RELATIONAL
-> 
+>
 > Your project should make use of the following:
 > - SOLID Principles (as best as you can)
 > - Generics
@@ -47,9 +47,9 @@ The brief is as follows
 > - Streams (returning data)
 > - Exceptions (As well as creating some custom exceptions)
 > - Attempt to use some of the design patterns, or make note of what design patterns you could use
-> 
+>
 > You should be able to access the methods using a runner
-> 
+>
 > Stretch goal - Use input scanners to allow the user to specify what they want to do
 >
 > MAKE A GITHUB REPO AND USE FBM:
@@ -58,7 +58,7 @@ The brief is as follows
 
 ### Our Approach
 
-
+[logo]: https://res.cloudinary.com/dojuvapbw/image/upload/v1643047226/dimmbar_UML_ypmjzy.jpg "UML For project"
 
 ---
 
@@ -99,7 +99,7 @@ Distributed under the MIT Licence. See `Licence` for more information.
 
 **Developer:** Madeleine Simcock-Brown - m.simcock-brown@outlook.com
 
-**Developer:** Mateusz Bieniek - 
+**Developer:** Mateusz Bieniek -
 
 
 Repository Link: [https://github.com/Daoist-W/dimmbar](https://github.com/Daoist-W/dimmbar)
