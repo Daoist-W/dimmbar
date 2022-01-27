@@ -58,8 +58,9 @@ The brief is as follows
 
 ### Our Approach
 
-[logo]: https://res.cloudinary.com/dojuvapbw/image/upload/v1643047226/dimmbar_UML_ypmjzy.jpg "UML For project"
 
+![alt text](https://github.com/Daoist-W/dimmbar/blob/main/dimmbar_UML.jpg "UML For project")
+> Click on Image for better resolution
 ---
 
 ## Getting Started
