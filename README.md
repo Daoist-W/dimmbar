@@ -1,6 +1,5 @@
 # Project Dimmbar
-## By Don Isiko, Madeleine Simcock-Brown & Mateusz Bieniek
-> Java application with MySQL Database that provides Stock management for our fictional Bar, Dimmbar
+> Native exe Java application that works with a MySQL Database to provide Stock management for our fictional Bar, Dimmbar
 
 - [About](#about)
 - [Getting Started](#getting-started)
@@ -15,14 +14,14 @@
 
 ### The Challenge
 
-![Python](https://img.shields.io/badge/-java-blue)
-![firestore](https://img.shields.io/badge/-sql-yellow)
+![Java](https://img.shields.io/badge/-java-blue)
+![mysql](https://img.shields.io/badge/-sql-yellow)
 ![bash](https://img.shields.io/badge/-bash-black)
 ![GitHub issues](https://img.shields.io/github/issues/Daoist-W/dimmbar)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Daoist-W/dimmbar)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Daoist-W/dimmbar)
 
-This application is our solution to a challenge project set by QA Academy Software Development course
+This application is a solution to a challenge project set by QA Academy Software Development course
 
 The brief is as follows
 
@@ -56,17 +55,58 @@ The brief is as follows
 > Main -> Dev -> Feature1
 
 
-### Our Approach
+### The Approach
 
+This scope that this application has been taken to is well beyond the scope of the original challenge, but I feel that this is the nature of iterative design.
 
-![alt text](https://github.com/Daoist-W/dimmbar/blob/main/dimmbar_UML.jpg "UML For project")
+This started out as a group exercise to allow us to exercise our undertsanding of JDBC, design patterns and solid principles. The initial design was a proof of concept 
+that gave the team a clearer development direction and met the base goals mentioned above.
+
+![alt text](https://github.com/Daoist-W/dimmbar/blob/main/documents/0001.jpg "Initial UML For project")
 > Click on Image for better resolution
+
+
+Once we had reached our initial goal, I wanted to see how much further I could take this simple application, couuld I apply stronger design principles? could I add
+functionality in a way that's meaningful? How about deployment? How far can I take what was once a simple terminal application run on the terminal inside an IDE?
+
+The initial area I looked at was the UML diagram, as this is usually my starting point for more complex projects, and after considering the SOLLID principles and design
+patterns, I opted for strategy patterns where I had abstract classes or interfaces being extended/implemented by multiple child classes, as well as pushing for segregation
+of responsibilty as far as was reasonable for maintainability. The facade pattern was used as a consequence of SOLID, and I also ensured that there were no wasted inherited methods.
+
+![alt text](https://github.com/Daoist-W/dimmbar/blob/main/documents/0002.jpg "Updated UML For project")
+> Click on Image for better resolution
+
+The result of this was added features such as RBAC, enforced by MYSQL root admin, that restricted what different levels of users could do with the data stored
+as well as a more easily extendable code base that mimicks the 3 layer set up often seen in springboot applications.
+
+Further to this, the application has now been packaged and converted to native exe format so it can be executed on any windows OS with the appropriate JRE (associated 
+versions for Java 8/9)
+
+moving forward, the aims are to refactor this application into a springboot application, and create a web application front end written in REDUX/REACT to improve upon 
+the current terminal based UI.
+
+![alt text](https://github.com/Daoist-W/dimmbar/blob/main/documents/Login-screenshot.png "screen grab of application terminal based ui")
+> Click on Image for better resolution
+
 ---
 
 ## Getting Started
 
+Assuming you have JDK 8/9/11 and the corresponding JRE, the jar file located on the link below can be run by typing the following commands in your terminal
 
+`cd /path/to/project/root/directory`
 
+and then
+
+`java -jar /path/to/jarfile.jar`
+
+this should execute the jar file and allow you to run the application from your terminal
+
+Alternatively, if you have windows you can simply download the dimmbar.exe file and excute it.
+
+Files:
+-  [https://github.com/Daoist-W/dimmbar/blob/main/target/dimmbar.exe](https://github.com/Daoist-W/dimmbar/blob/main/target/dimmbar.exe)
+-  [https://github.com/Daoist-W/dimmbar/blob/main/target/dimmbar-1.0-DFESW7-jar-with-dependencies.jar](https://github.com/Daoist-W/dimmbar/blob/main/target/dimmbar-1.0-DFESW7-jar-with-dependencies.jar)
 
 
 ---
@@ -90,17 +130,12 @@ The brief is as follows
 
 ## Licence
 
-Distributed under the MIT Licence. See `Licence` for more information.
+Distributed under the MIT Licence.
 
 ---
 
 ## Contact
 
 **Developer:** Don Isiko - don.k.isiko@gmail.com
-
-**Developer:** Madeleine Simcock-Brown - m.simcock-brown@outlook.com
-
-**Developer:** Mateusz Bieniek -
-
 
 Repository Link: [https://github.com/Daoist-W/dimmbar](https://github.com/Daoist-W/dimmbar)
