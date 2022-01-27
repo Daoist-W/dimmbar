@@ -1,3 +1,4 @@
+import com.dimmbar.*;
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -55,7 +56,7 @@ public class TestInputHandler {
 
     // can switch between Input implementations
 
-    // can retrieve all products from tables via StockManager
+    // can retrieve all products from tables via com.dimmbar.StockManager
 
     // can retrieve item by id/name
 

@@ -1,3 +1,5 @@
+import com.dimmbar.Beer;
+import com.dimmbar.Entry;
 import org.junit.Test;
 
 import java.util.HashMap;
