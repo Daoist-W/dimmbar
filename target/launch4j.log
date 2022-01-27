@@ -1,0 +1,27 @@
+
+
+Version:	3.14
+CmdLine:	C:\Users\User\IdeaProjects\dimmbar\target\dimmbar.exe --l4j-debug
+WOW64:		yes
+Create mutex:	dimmbar
+Working dir:	C:\Users\User\IdeaProjects\dimmbar\target\.
+Java min ver:	1.005.000
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_321\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_321
+Check launcher:	C:\Program Files\Java\jre1.8.0_321\bin\javaw.exe (OK)
+Match:		1.008.000_321
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_321 (64-bit)
+Heap -Xms:	Requested 10 MB / 0%, Available: 10528 MB, Heap size: 10 MB
+Heap -Xmx:	Requested 15 MB / 0%, Available: 10528 MB, Heap size: 15 MB
+Substitute:	C:\Program Files\Java\jre1.8.0_321\bin = 
+Launcher:	C:\Program Files\Java\jre1.8.0_321\bin\javaw.exe
+Launcher args:	-Xms10m -Xmx15m  -jar "C:\Users\User\IdeaProjects\dimmbar\target\dimmbar.exe"
+Args length:	77/32768 chars
+Exit code:	1
