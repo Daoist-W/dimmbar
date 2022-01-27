@@ -92,6 +92,14 @@ the current terminal based UI.
 
 ## Getting Started
 
+### Things to note
+This app is still in the process of development, so there are some elements that have not been completely implemented yet, and the testing was limited to unit testing at
+the time of development. Moveing forward there will be much better documentation, testing and functionality, look forward to the next main branch issue ;)!
+
+To set up the database functionality, please refer to the SQL scripts stored in the following location
+-  [https://github.com/Daoist-W/dimmbar/blob/main/documents/user%20setup.sql](https://github.com/Daoist-W/dimmbar/blob/main/documents/user%20setup.sql)
+-  [https://github.com/Daoist-W/dimmbar/blob/main/documents/dimmbar.sql](https://github.com/Daoist-W/dimmbar/blob/main/documents/dimmbar.sql)
+
 Assuming you have JDK 8/9/11 and the corresponding JRE, the jar file located on the link below can be run by typing the following commands in your terminal
 
 `cd /path/to/project/root/directory`
@@ -107,6 +115,8 @@ Alternatively, if you have windows you can simply download the dimmbar.exe file 
 Files:
 -  [https://github.com/Daoist-W/dimmbar/blob/main/target/dimmbar.exe](https://github.com/Daoist-W/dimmbar/blob/main/target/dimmbar.exe)
 -  [https://github.com/Daoist-W/dimmbar/blob/main/target/dimmbar-1.0-DFESW7-jar-with-dependencies.jar](https://github.com/Daoist-W/dimmbar/blob/main/target/dimmbar-1.0-DFESW7-jar-with-dependencies.jar)
+
+
 
 
 ---
