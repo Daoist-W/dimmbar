@@ -1,3 +1,7 @@
+import com.dimmbar.Beer;
+import com.dimmbar.BeerManager;
+import com.dimmbar.JDBC_Beers;
+import com.dimmbar.JDBC_Setup;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
