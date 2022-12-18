@@ -12,7 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: run commands
-      run: |
-        ssh -i demo.pem azureuser@20.124.29.116 -y
+    - name: executing remote ssh commands using ssh key
+      uses: appleboy/ssh-action@v0.1.6
+      with:
+        host: 20.124.29.116
+        username: azureuser
+        key: ${{ secrets.AZURE_VM_PEM }}
+        port: 22
+        script: echo "hello woeld" > testing.txt
